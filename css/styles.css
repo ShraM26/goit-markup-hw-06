@@ -12,27 +12,33 @@ ul {
 /* Header */
 .logo {
     font-family: "Raleway",sans-serif;
-    color: #2E2F42;
+    color: #4d5ae5;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .logo-part {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 .nav-link {
     color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .nav-link:hover,
 .nav-link:focus {
     color: #404BBF;
 }
+.addres-section {
+    font-style: normal;
+}
 .contacts-link {
     color: #434455;
-    font-style: normal;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -47,6 +53,9 @@ ul {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+
 }
 .button {
     cursor: pointer;
@@ -54,6 +63,7 @@ ul {
     color: #FFF;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .button:hover,
 .button:focus {
@@ -64,23 +74,28 @@ ul {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .section-text {
     line-height: 1.5;
+    letter-spacing: 0.02em
 }
 /* Team section */
 .section-team {
     background-color: #F4F4FD;
 }
-.Portait-team {
+.portait-team {
     background-color: #FFF;
 }
 .section-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     color: #2E2F42;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 /* Portfolio */
@@ -92,6 +107,7 @@ ul {
 .footer-text {
     color: #F4F4FD;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .logo-footer-part {
     color: #F4F4FD;
