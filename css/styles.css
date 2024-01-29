@@ -1,0 +1,99 @@
+/* global */
+body {
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+    background-color:#FFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+}
+/* Header */
+.logo {
+    font-family: "Raleway",sans-serif;
+    color: #2E2F42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+}
+.logo-part {
+    color: #4D5AE5;
+}
+.nav-link {
+    color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBF;
+}
+.contacts-link {
+    color: #434455;
+    font-style: normal;
+    line-height: 1.5;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404BBF;
+}
+/* Hero section */
+.hero-section {
+    background-color: #2E2F42;
+}
+.hero-title {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+}
+.button {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+/* Advantages section */
+.sub-section-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1,2;
+}
+.section-text {
+    line-height: 1.5;
+}
+/* Team section */
+.section-team {
+    background-color: #F4F4FD;
+}
+.Portait-team {
+    background-color: #FFF;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #2E2F42;
+}
+
+/* Portfolio */
+
+/* Footer */
+.footer-section {
+    background-color: #2E2F42;
+}
+.footer-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+}
+.logo-footer-part {
+    color: #F4F4FD;
+}
+
