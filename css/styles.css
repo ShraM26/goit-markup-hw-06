@@ -17,6 +17,19 @@ body {
 .section {
     padding: 120px 0;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 img {
     display: block;
 }
@@ -56,6 +69,7 @@ a {
     font-size: 20px;
     line-height: 1.2;
 
+    
     padding-top: 32px;
     margin-bottom: 8px;
 }
@@ -145,6 +159,7 @@ a {
     letter-spacing: 0.04em;
     cursor: pointer;
     border-radius: 4px;
+    min-width: 169px;
 
     display: block;
     border: none;
@@ -176,16 +191,21 @@ a {
  
     border-radius: 0 0 4px 4px;
     flex-basis: calc((100% - 3 * 24px) / 4);
-    padding: 0px 0px 32px 0px;
 }    
 .team-list {
     display: flex;
     gap: 24px;
-    text-align: center;
     justify-content: center;
 }
-
-
+.team-info {
+    padding: 32px 0;
+}
+.name {
+    text-align: center;
+}
+.info-text {
+    text-align: center;
+}
 /* Portfolio */
 
 .portfolio-list {
@@ -217,8 +237,8 @@ a {
 }
 .logo-footer-part {
     color: #F4F4FD;
-  
+}
+.logo-footer {
     display: inline-block;
     margin-bottom: 16px;
 }
-
