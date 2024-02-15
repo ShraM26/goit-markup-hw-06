@@ -377,9 +377,12 @@ a {
    
     display: flex;
     align-items: center;
-    justify-content: center;
-   
-    
+    justify-content: center;   
+}
+.footer-social-icon{
+    fill: #f4f4fd;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
