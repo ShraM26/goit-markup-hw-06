@@ -13,19 +13,19 @@ body {
     font-family: "Roboto", sans-serif;
     color:#434455;
     background-color:#FFF;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .section {
-    padding: 120px 0;
+    padding: 96px 0;
 }
 .container {
-    max-width: 1158px;
+    max-width: 320px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px; 
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .visually-hidden {
@@ -79,9 +79,12 @@ button {
 
 .sub-section-title {
     color: #2E2F42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
 
     margin-bottom: 8px;
 }
@@ -94,6 +97,7 @@ button {
 }
 .header-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .nav-info {
@@ -120,11 +124,15 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
+
+    margin: 16px 0;
 }
 
 .logo-part {
-    color: #2e2f42;
-    margin-right: 76px;
+    color: #2e2f42; 
+}
+.nav-menu-icon {
+    cursor: pointer;
 }
 .nav-link {
     color: #2E2F42;
@@ -172,20 +180,22 @@ button {
     background-position: center;
     background-size: cover;
 
-    padding: 188px 0;
-    max-width: 1440px;
+    padding: 72px 0;
+    max-width: 320px;
     margin: 0 auto;
 }
 .hero-title {
     color: #FFF;
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
-    max-width: 496px;
+    width: 216px;
 
     margin: 0 auto;
-    margin-bottom: 48px;
+    margin-bottom: 72px;
 
 }
 .button {
@@ -215,14 +225,16 @@ button {
 /*-------------------------------------------! Advantages */
 .advantages-list {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    gap: 72px;
     justify-content: center;
 }
 .advantages-item {
-    flex-basis: calc((100% - 3 * 24px)/4);
+    flex-basis: calc((100% - 3 * 72px)/4);
 }
 .adv-icon {
     display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     height: 112px;
@@ -241,12 +253,13 @@ button {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
  
     border-radius: 0 0 4px 4px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 72px) / 4);
 }    
 .team-list {
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 72px;
 }
 .team-social-list{
     display: flex;
@@ -283,7 +296,9 @@ button {
     padding: 32px 0;
 }
 .name {
-    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .info-text {
     text-align: center;
@@ -298,7 +313,7 @@ button {
     flex-wrap: wrap;
     text-align: left;
     align-items: center;
-    gap: 48px 24px;
+    gap: 48px;
 }
 .portfolio-item {
     width: calc((100% - 48px) / 3);
@@ -350,25 +365,25 @@ button {
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    justify-content: center;
 }
 .footer-text {
     color: #F4F4FD;
-    max-width: 264px;
+   
 }
 .logo-footer-part {
     color: #F4F4FD;
 }
 .logo-footer {
-    display: inline-block;
+    display:flex;
+    justify-content: center;
     margin-bottom: 16px;
 }
 .footer-container-info {
-    margin-right: 120px;
+   margin-bottom: 72px;
 }
 .footer-social-container{
-    padding-bottom: 0px;
-    margin-right: auto;
+    margin-bottom: 72px;
 }
 .footer-social-title {
     color: #fff;
@@ -376,7 +391,7 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    text-align: center;
     margin-bottom: 16px;
 }
 .footer-list {
@@ -420,12 +435,14 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     margin-bottom: 16px;
 }
 .footer-form {
     display: flex;
-    
-    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
 }
 .footer-form-icon {
     margin-left: 16px;
@@ -433,19 +450,22 @@ button {
 .footer-form-input {
     background-color: transparent;
     color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-        
+    outline: transparent;
     border-radius: 4px;
-    min-width: 264px;
+    min-width: 288px;
     height: 40px;
     padding-left: 16px;
 }
 .footer-form-input::placeholder {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.3);
+}
+.footer-form-input:focus {
+    border: 1px solid #31d0aa;
 }
 .footer-form-btn { 
     background-color:#4d5ae5;
@@ -673,3 +693,5 @@ button {
     background-color: #404bbf;
 }
 /* ------------------------------------------- ? Modal window */
+/* -------------------------------------------!  */
+/*  -------------------------------------------? */
