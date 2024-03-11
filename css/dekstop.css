@@ -1,10 +1,7 @@
 
 
 /* ------------------------------------------- !Header */
-.header {
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-}
+
 
 .nav-info {
     display: flex;
@@ -19,94 +16,13 @@
     margin-left: auto;
 }
 
-.address-list {
-    display: flex;
-    gap: 40px;
-    margin-right: auto;
-}
 
-.nav-link {
-    color: #2E2F42;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    font-weight: 500;
 
-    display: block;
-    padding: 24px 0;
-}
-.nav-link:hover,
-.nav-link:focus {
-    color: #404BBF;
-}
-.nav-link-current {
-    color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
-}
-.nav-link-current::after {
-    background-color: #404bbf;
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    bottom: -1px;
-}
-.contacts-link {
-    color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contacts-link:hover,
-.contacts-link:focus {
-    color: #404BBF;
-}
 /* ------------------------------------------- ?Header */
     
 /*------------------------------------------- !Hero section */
-.hero-section {
-    background-color: #2E2F42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)),url(../images/backgraund/background-hero.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 
-    padding: 72px 0;
-    max-width: 320px;
-    margin: 0 auto;
-}
-.hero-title {
-    color: #FFF;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    width: 216px;
 
-    margin: 0 auto;
-    margin-bottom: 72px;
-}
-.button {
-    background-color: #4D5AE5;
-    color: #FFF;
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    border-radius: 4px;
-    min-width: 169px;
-    display: block;
-    border: none;
-    padding: 16px 32px;
-    margin: 0 auto;
-}
-.button:hover,
-.button:focus {
-    background-color: #404BBF;
-}
 /*-------------------------------------------? Hero section */
 
 /*-------------------------------------------! Advantages */
